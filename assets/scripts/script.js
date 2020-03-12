@@ -22,9 +22,9 @@ $(document).ready(function() {
         } else {
             pastPresentFuture = "future";
         }
-        var timeRow = $("<div>").addClass(`row time-block ${pastPresentFuture}`);
+        var timeRow = $("<div>").addClass("row time-block");
         var hourBlock = $("<div>").addClass("col-1 hour").text(tempTime.format("hA"));
-        var textAreaBlock = $("<textarea>").addClass("col-10").text(retrieveHourPlan(dateTimeKey)).attr("id", dateTimeKey);
+        var textAreaBlock = $("<textarea>").addClass(`col-10 ${pastPresentFuture}`).text(retrieveHourPlan(dateTimeKey)).attr("id", dateTimeKey);
         var saveButtonBlock = $("<button>").addClass("col-1 saveBtn").attr("data-key", dateTimeKey).attr("id", i);
         var icon = $("<i>").addClass("fas fa-save");
         icon.appendTo(saveButtonBlock);
