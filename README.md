@@ -9,7 +9,7 @@ This assignment was a good way to familiarize myself with JQuery and Moment.js. 
 
 ## Screenshot
 
-!(planner page)[./assets/screenshots/planner_page.png]
+![planner page](./assets/screenshots/planner_page.png)
 
 ## Links
 
