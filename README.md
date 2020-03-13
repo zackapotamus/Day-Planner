@@ -13,6 +13,6 @@ This assignment was a good way to familiarize myself with JQuery and Moment.js. 
 
 ## Links
 
-(Github Repository)[https://github.com/zackapotamus/Day-Planner]
+[Github Repository](https://github.com/zackapotamus/Day-Planner)
 
-(Github hosted page)[https://zackapotamus.github.io/Day-Planner/]
+[Github hosted page](https://zackapotamus.github.io/Day-Planner/)
